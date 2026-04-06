@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sudarshan Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h2>Sudarshan</h2>
+  <button onclick="toggleDark()">🌙</button>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#achievements">Achievements</a>
+  <a href="#projects">Projects</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- HOME -->
+<section id="home">
+  <img src="assets/images/profile.jpg" class="profile">
+  <h1>Sudarshan</h1>
+  <p>Aspiring AI/ML & Cybersecurity Enthusiast</p>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>About Me</h2>
+  <p><b>Education:</b> B.Tech in CSE (AI/ML)</p>
+  <p><b>Interests:</b> AI, Cybersecurity, Web Development</p>
+  <p><b>Goals:</b> Become AI Engineer</p>
+  <p><b>Strengths:</b> Problem solving, teamwork</p>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section id="achievements">
+  <h2>Achievements</h2>
+
+  <div class="card">
+    <h3>AI4A Project</h3>
+    <p>AI-based Intrusion Detection System</p>
+  </div>
+
+  <div class="card">
+    <h3>Design Thinking</h3>
+    <p>Innovative problem solving project</p>
+  </div>
+
+  <div class="card">
+    <h3>ACE Project</h3>
+    <p>Applied engineering project</p>
+  </div>
+
+  <div class="card">
+    <h3>Certificates</h3>
+    <p>Coursera, NetAcad, Yuva AI</p>
+    <img src="assets/certificates/cert1.jpg">
+  </div>
+
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="card">
+    <img src="assets/projects/project1.png">
+    <h3>Intrusion Detection</h3>
+    <p>AI-based threat detection system</p>
+    <a href="#">View</a>
+  </div>
+
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <h2>Gallery</h2>
+
+  <img src="assets/images/photo1.jpg">
+  <img src="assets/certificates/cert1.jpg">
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: your@email.com</p>
+  <p>Phone: 1234567890</p>
+  <p>
+    <a href="#">LinkedIn</a> |
+    <a href="#">GitHub</a>
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 Sudarshan</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
